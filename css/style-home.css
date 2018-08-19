@@ -14,3 +14,7 @@
 .cabecalho-home__role{
     display: none;
 }
+.home__titulo{
+    text-align: center;
+    text-transform: uppercase;
+}
