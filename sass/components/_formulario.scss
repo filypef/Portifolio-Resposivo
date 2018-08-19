@@ -18,10 +18,10 @@
     padding: 10px 50px;
 }
 .formulario__botao{
-    border: 3px solid #f00;
+    border: 3px solid $cor-rosa;
     border-radius: 300px;
     background-color: #fff;
-    color: #f00;
+    color: $cor-rosa;
     padding: 5px 20px;
     cursor: pointer;
     display: block;
