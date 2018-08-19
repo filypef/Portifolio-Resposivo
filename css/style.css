@@ -65,3 +65,18 @@ body{
 .menu-principal__item--atual{
     color: #f44242;
 }
+
+/* rodape */
+.rodape{
+    color: #fff;
+}
+.rodape__linha-1{
+    background-color: #272525;
+    padding: 15px;
+}
+
+.rodape__linha-2{
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+}
