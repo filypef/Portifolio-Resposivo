@@ -7,7 +7,8 @@
     <title>Design Resposivo</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-pagina.css"> 
+    <link rel="stylesheet" href="css/style-pagina.css">
+    <link rel="stylesheet" href="css/style-contato.css"> 
 </head>
 <body>
     <!-- sessao header -->
@@ -31,20 +32,20 @@
         <section class="pagina-conteudo">
             <p class="text-center">Suspendisse convallis, turpis vitae placerat luctus, est felis dictum augue.</p>
 
-            <form action="#">
-                <div>
-                    <label for="nome">Nome</label><br>
-                    <input type="text" name="nome" id="nome">
+            <form action="#" class="formulario">
+                <div class="formulario__grupo">
+                    <label for="nome" class="formulario__label">Nome</label><br>
+                    <input class="formulario__campo" type="text" name="nome" id="nome">
                 </div>
-                <div>
-                    <label for="email">E-mail</label><br>
-                    <input type="email" name="email" id="email">
+                <div class="formulario__grupo">
+                    <label for="email" class="formulario__label">E-mail</label><br>
+                    <input class="formulario__campo" type="email" name="email" id="email">
                 </div>
-                <div>
-                    <label for="mensagem">Mensagem</label><br>
+                <div class="formulario__grupo">
+                    <label class="formulario__campo" for="mensagem" class="formulario__label">Mensagem</label><br>
                     <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
                 </div>
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" class="formulario__botao">
             </form>
 
             <p class="text-center">Maecenas facilisis volutpat ipsum, sed faucibus tortor aliquam non.</p>
