@@ -17,6 +17,7 @@
 .home__titulo{
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
 .home__titulo::after{
     content: '';
