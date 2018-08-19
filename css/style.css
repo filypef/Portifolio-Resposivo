@@ -75,6 +75,8 @@ body{
 }
 .rodape__linha-1{
     background-color: #272525;
+    background-image: url(../img/rodape-bg.jpg);
+    background-size: cover;
     padding: 15px;
 }
 
