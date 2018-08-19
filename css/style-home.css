@@ -7,3 +7,10 @@
     padding: 50px 0;
     color: #fff;
 }
+.cabecalho-home__titulo{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.cabecalho-home__role{
+    display: none;
+}
