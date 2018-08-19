@@ -25,3 +25,20 @@ body{
     background-repeat: no-repeat;
     text-indent: -99999px;
 }
+.menu-principal__btn{
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-image: url('../img/menuprincipal-btn-bg.png');
+    background-repeat: no-repeat;
+    background-position: 5px 8px;
+    text-indent: -99999px;
+    outline: none;
+    cursor: pointer;
+}
+.menu-principal__btn--fechar{
+    background-position: -48px 8px;
+}
