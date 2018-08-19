@@ -1,0 +1,16 @@
+.cabecalho-home{
+    background-image: url('../img/cabecalho-home-bg.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+}
+.cabecalho-home__titulo{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.cabecalho-home__role{
+    display: none;
+}
