@@ -5,6 +5,9 @@ img{
     max-width: 100%;
     height: auto;
 }
+.text-center{
+    text-align: center;
+}
 @font-face{
     font-family: 'Source Sans Pro';
     src: url(../fonts/SourceSansPro-Regular.otf)
