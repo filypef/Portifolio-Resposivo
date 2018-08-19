@@ -16,3 +16,12 @@ body{
 .cabecalho{
     background-color: #fff;
 }
+.logo{
+    width: 120px;
+    height: 53px;
+    margin: 0;
+    display: block;
+    background-image: url('../img/logotipo-preto.png');
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
