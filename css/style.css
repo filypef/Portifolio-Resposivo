@@ -27,6 +27,9 @@ body{
     background-repeat: no-repeat;
     text-indent: -99999px;
 }
+.logo--branco{
+    background-image: url('../img/logotipo-branco.png');
+}
 .menu-principal__btn{
     width: 50px;
     height: 50px;
@@ -63,5 +66,48 @@ body{
     font-size: 18px;
 }
 .menu-principal__item--atual{
+    color: #f44242;
+}
+
+/* rodape */
+.rodape{
+    color: #fff;
+}
+.rodape .logo{
+    margin-bottom: 20px;
+}
+.rodape__linha-1{
+    background-color: #272525;
+    background-image: url(../img/rodape-bg.jpg);
+    background-size: cover;
+    padding: 15px;
+}
+.rodape__linha-2{
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+}
+.rodape__coluna{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.rodape__titulo{
+    font-size: 18px;
+    border-bottom: 1px solid #fff;
+    padding: 0 10px 10px 10px;
+}
+.rodape__lista{
+    padding: 0;
+    list-style: none;
+}
+.rodape__lista--item{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.rodape__lista--item:before{
+    content: '>';
+    margin-right: 8px;
     color: #f44242;
 }
